@@ -1,0 +1,25 @@
+﻿Preprocessing 
+Preprocessing is a critical step in sentiment analysis that is essential for ensuring accurate and reliable results. To preprocess a dataset for sentiment analysis research, several general steps need to be followed.
+data cleaning:, data cleaning involves removing unnecessary or redundant information from the dataset such as special characters, emojis, or URLs. Additionally, it involves correcting any spelling mistakes, capitalization issues, or grammatical errors in the text.
+tokenization:, tokenization, which is the process of breaking down the text into individual words, phrases, or sentences, is done to help the algorithm understand the text structure and identify relevant words that are most likely to contribute to the sentiment of the text.
+stop words removing: , stop words, which are common words that do not contribute to the meaning of the text, are removed to reduce noise in the dataset and improve the accuracy of the analysis.
+ stemming and lemmatization:, stemming and lemmatization techniques are used to normalise words by reducing them to their base form, which reduces the complexity of the dataset and ensures that different forms of the same word are treated the same.
+
+
+
+
+ 
+ Feature Engineering :
+ 
+ Feature Engineering is the art of transforming raw data into more meaningful and useful representations for use in machine learning models. This includes creating new features, transforming existing ones, and selecting the most relevant features for the model. It requires a deep understanding of the data and the relationships between features.
+(tf–idf): 
+
+
+Tf-idf (term frequency-inverse document frequency) is a statistical method used in NLP and information retrieval to evaluate the importance and relevance of words in a document. This approach computes a weight for each word in the document by merging the term frequency (which represents the word's frequency within the document) and the inverse document frequency (which represents the word's rarity across all documents in the corpus). Words with higher tf-idf scores demonstrate a stronger relationship within the document where they appear. This can be expressed as follows:
+tf-idf (t, d) = tf (t, d) x idf (t),
+where tf (t, d) is the term frequency and idf (t) is the inverse document frequency.
+
+
+
+
+Bag-of-words (BoW) is a widely used feature extraction method in natural language processing that treats a text document as a collection of its words, keeping track of their frequency but ignoring their sequence. It has numerous applications in NLP, such as sentiment analysis and text classification.
